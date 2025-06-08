@@ -1,15 +1,16 @@
-// Array of demo police station images
+// Array of Polish police station images
 const policeImages = [
-  '/police/police1.jpg',
-  '/police/police2.jpg',
-  '/police/police3.jpg',
-  '/police/police4.jpg',
-  '/police/police5.jpg',
-  '/police/police6.jpg',
-  '/police/police7.jpg',
-  '/police/police8.jpg',
+  '/police/station1.jpg', // Modern police headquarters in Warsaw
+  '/police/station2.jpg', // Historic police station in Krakow
+  '/police/station3.jpg', // Police station in Gdansk
+  '/police/station4.jpg', // Police headquarters in Poznan
+  '/police/station5.jpg', // Police station in Wroclaw
+  '/police/station6.jpg', // District police station in Lodz
+  '/police/station7.jpg', // Police station in Szczecin
+  '/police/station8.jpg', // Police headquarters in Katowice
 ];
 
+// Get a random police station image
 export function getRandomPoliceImage(): string {
   const randomIndex = Math.floor(Math.random() * policeImages.length);
   return policeImages[randomIndex] || '/placeholder.jpg';

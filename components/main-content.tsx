@@ -545,56 +545,48 @@ function PoliceContent() {
           distance="4.4km"
           contact="755 275 2627"
           mapUrl="https://maps.app.goo.gl/HvjVLbUHnyCLJ4jd8"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <PoliceStationCard
           name="Bilkhiriya Police Station J. K."
           distance="6.4km"
           contact="755 292 3500"
           mapUrl="https://maps.app.goo.gl/Q71jMRkJC9x5qZnH8"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <PoliceStationCard
           name="Piplani Police Station"
           distance="6.8km"
           contact="755 267 7326"
           mapUrl="https://maps.app.goo.gl/5s1PidJ7SZrZmHLn7"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <PoliceStationCard
           name="Police Station Ashoka Garden"
           distance="11km"
           contact="755 268 1900"
           mapUrl="https://maps.app.goo.gl/HzhBR1izoELzqfsMA"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <PoliceStationCard
           name="Habibganj Police Station"
           distance="13km"
           contact="755 278 3456"
           mapUrl="https://maps.app.goo.gl/example1"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <PoliceStationCard
           name="MP Nagar Police Station"
           distance="9.2km"
           contact="755 289 4567"
           mapUrl="https://maps.app.goo.gl/example2"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <PoliceStationCard
           name="Kolar Police Station"
           distance="16km"
           contact="755 290 5678"
           mapUrl="https://maps.app.goo.gl/example3"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <PoliceStationCard
           name="Shahpura Police Station"
           distance="14km"
           contact="755 301 6789"
           mapUrl="https://maps.app.goo.gl/example4"
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
       </div>
     </div>
