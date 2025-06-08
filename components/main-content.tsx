@@ -476,56 +476,48 @@ function HospitalContent() {
           distance="2.4km"
           contact="0755-2678901"
           specialties={["Emergency", "Trauma", "ICU"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <HospitalCard
           name="Maruti Multispeciality Hospital"
           distance="2.7km"
           contact="0755-2789012"
           specialties={["Cardiology", "Neurology", "Orthopedics"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <HospitalCard
           name="Laxmi Multispeciality Hospital"
           distance="2.7km"
           contact="0755-2890123"
           specialties={["Pediatrics", "Surgery", "Emergency"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <HospitalCard
           name="ANANT SGREE HOSPITAL"
           distance="7.2km"
           contact="0755-2901234"
           specialties={["Gynecology", "Orthopedics", "ENT"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <HospitalCard
           name="Career Hospital Bhopal"
           distance="10km"
           contact="0755-3012345"
           specialties={["Cardiology", "Oncology", "Nephrology"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <HospitalCard
           name="AIIMS Bhopal"
           distance="12km"
           contact="0755-3123456"
           specialties={["All Specialties", "Trauma Center", "Research"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <HospitalCard
           name="Chirayu Medical College"
           distance="15km"
           contact="0755-4567890"
           specialties={["Medical Education", "Research", "Multi-specialty"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
         <HospitalCard
           name="Bansal Hospital"
           distance="8.5km"
           contact="0755-5678901"
           specialties={["Cardiac Surgery", "Neurosurgery", "Oncology"]}
-          imageUrl="/placeholder.svg?height=200&width=300"
         />
       </div>
     </div>

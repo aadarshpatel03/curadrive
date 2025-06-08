@@ -21,7 +21,9 @@ export function HospitalCard({ name, distance, contact, specialties, imageUrl }:
           src={imageUrl || getRandomHospitalImage()} 
           alt={name} 
           fill 
-          className="object-cover" 
+          className="object-cover"
+          priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         <div className="absolute top-2 right-2">
           <Badge className="bg-teal-500">{distance}</Badge>
