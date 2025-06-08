@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "CuraDrive - Road Safety & Emergency Response System",
-  description: "A government initiative for road safety and emergency response",
+  description: "Personal initiative for road safety and emergency response",
   generator: "v0.dev",
   viewport: "width=device-width, initial-scale=1",
 }

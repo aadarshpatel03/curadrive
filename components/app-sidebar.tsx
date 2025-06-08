@@ -69,13 +69,13 @@ const emergencyItems = [
     title: "Hospitals",
     section: "hospital",
     icon: Building2,
-    badge: "12",
+    badge: "5",
   },
   {
     title: "Police Stations",
     section: "police",
     icon: Police,
-    badge: "8",
+    badge: "3",
   },
   {
     title: "Emergency Contacts",
@@ -122,7 +122,7 @@ export function AppSidebar({ activeSection, setActiveSection }: AppSidebarProps)
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold text-white">CuraDrive</span>
-            <span className="text-xs text-teal-100">Government Initiative</span>
+            <span className="text-xs text-teal-100">Personal Safety Project</span>
           </div>
         </div>
       </SidebarHeader>

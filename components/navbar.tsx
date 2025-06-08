@@ -26,7 +26,7 @@ export function Navbar() {
               <Shield className="h-8 w-8 text-white" />
               <div className="flex flex-col">
                 <h1 className="text-xl font-bold text-white">CuraDrive</h1>
-                <p className="text-xs text-teal-100">Road Safety Initiative</p>
+                <p className="text-xs text-teal-100">Personal Safety Initiative</p>
               </div>
             </div>
           </div>

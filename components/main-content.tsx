@@ -264,7 +264,7 @@ function DashboardContent() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-          <p className="text-gray-600">Welcome to CuraDrive - Road Safety & Emergency Response System</p>
+          <p className="text-gray-600">Welcome to CuraDrive - Your Personal Safety & Emergency Response Assistant</p>
         </div>
         <Badge className="bg-green-500 text-white">System Online</Badge>
       </div>
@@ -662,25 +662,25 @@ function AboutContent() {
                 important local resources. Our mission is to make sure you stay informed and safe, anytime, anywhere.
               </p>
               <p className="text-gray-700">
-                Through innovative sensor technology and real-time communication systems, we aim to reduce emergency
-                response times and save lives during critical situations.
+                Through innovative technology and community-driven features, we aim to create a more connected and 
+                safer environment for everyone in our local community.
               </p>
             </div>
           </CardContent>
         </Card>
         <Card className="bg-white/80 backdrop-blur-sm shadow-lg border-0">
           <CardHeader className="bg-gradient-to-r from-teal-600 to-teal-500 text-white">
-            <CardTitle>Government Initiative</CardTitle>
+            <CardTitle>Personal Initiative</CardTitle>
           </CardHeader>
           <CardContent className="p-6">
             <div className="space-y-4">
               <p className="text-gray-700">
-                CuraDrive is a proud initiative under the Smart Cities Mission, aimed at leveraging technology to
-                enhance public safety and emergency response systems across the nation.
+                CuraDrive is a personal initiative aimed at leveraging technology to enhance public safety and create a more 
+                connected emergency response system for local communities.
               </p>
               <p className="text-gray-700">
-                Developed with care and user convenience in mind, CuraDrive aims to simplify critical information access
-                during emergencies and everyday needs.
+                Developed with passion and user convenience in mind, CuraDrive aims to simplify critical information access
+                during emergencies and everyday needs through innovative technology solutions.
               </p>
             </div>
           </CardContent>

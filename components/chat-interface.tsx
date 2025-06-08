@@ -48,7 +48,7 @@ export function ChatInterface() {
       } else if (lowerInput.includes("help")) {
         response = "Sure, I can help you! You can ask about hospital lists, police stations, or emergency contacts."
       } else if (lowerInput.includes("contact")) {
-        response = "You can reach our support at support@curadrive.gov.in or call 1800-123-4567."
+        response = "You can reach our support through the feedback section or send us an email for assistance."
       } else if (lowerInput.includes("issue") || lowerInput.includes("problem")) {
         response = "Sorry to hear that. Please describe your issue, and we will try to resolve it quickly."
       } else if (lowerInput.includes("thank")) {
@@ -72,7 +72,7 @@ export function ChatInterface() {
           "You can manage your family contacts in the Family Members section. Currently, you have 5 family members registered for emergency notifications."
       } else if (lowerInput.includes("dashboard")) {
         response =
-          "The dashboard shows real-time statistics including 2,847 active users, 156 connected hospitals, and 89 police stations in the network."
+          "The dashboard shows real-time statistics including local emergency services, nearby hospitals, and connected police stations in your area."
       }
 
       const aiMessage: Message = {
