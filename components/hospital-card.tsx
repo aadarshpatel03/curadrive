@@ -3,20 +3,26 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { MapPin, Phone } from "lucide-react"
+import { getRandomHospitalImage } from "@/lib/hospital-images"
 
 interface HospitalCardProps {
   name: string
   distance: string
   contact: string
   specialties: string[]
-  imageUrl: string
+  imageUrl?: string // Make imageUrl optional
 }
 
 export function HospitalCard({ name, distance, contact, specialties, imageUrl }: HospitalCardProps) {
   return (
     <Card className="bg-white/80 backdrop-blur-sm shadow-lg border-0 hover:shadow-xl transition-all duration-300">
       <div className="relative h-48">
-        <Image src={imageUrl || "/placeholder.svg"} alt={name} fill className="object-cover" />
+        <Image 
+          src={imageUrl || getRandomHospitalImage()} 
+          alt={name} 
+          fill 
+          className="object-cover" 
+        />
         <div className="absolute top-2 right-2">
           <Badge className="bg-teal-500">{distance}</Badge>
         </div>
